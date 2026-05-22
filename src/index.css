@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:wght@400;600;700;800;900&display=swap');
+
+:root {
+  --brand-red: #d9222f;
+  --brand-yellow: #f5c518;
+  --brand-white: #ffffff;
+  --brand-ink: #032b33;
+  --brand-ink-soft: #0b3b45;
+  --line: #e2bf55;
+  --panel-bg: rgba(255, 255, 255, 0.92);
+  --text-main: #0f2026;
+  --text-soft: #41545c;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text-main);
+  font-family: 'Nunito Sans', 'Segoe UI', sans-serif;
+  background:
+    radial-gradient(circle at 10% 14%, rgba(255, 255, 255, 0.76), transparent 34%),
+    radial-gradient(circle at 94% 18%, rgba(3, 43, 51, 0.2), transparent 30%),
+    linear-gradient(145deg, #ffe38d 0%, #f3c734 42%, #ecb81b 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: 'Bebas Neue', Impact, sans-serif;
+  letter-spacing: 0.02rem;
+}
+
+p {
+  margin: 0;
+}
